@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <FunctionalComp></FunctionalComp>
-        <LoginComp></LoginComp>
+        {/* <LoginComp></LoginComp> */}
       </div>
     )
   }

@@ -11,6 +11,7 @@ import {
     MDBInput
   }
   from 'mdb-react-ui-kit';
+import LoginComp from "./LoginComp";
 
  function FunctionalComp(){
 
@@ -38,7 +39,7 @@ import {
 
             <MDBBtn className="mb-4 px-5" color='dark' size='lg'>Login</MDBBtn>
             <a className="small text-muted" href="#!">Forgot password?</a>
-            <p className="mb-5 pb-lg-2" style={{color: '#393f81'}}>Don't have an account? <a href="#!" style={{color: '#393f81'}}>Register here</a></p>
+            <p className="mb-5 pb-lg-2" style={{color: '#393f81'}}>Don't have an account? <a href={LoginComp} style={{color: '#393f81'}}>Register here</a></p>
 
             <div className='d-flex flex-row justify-content-start'>
               <a href="#!" className="small text-muted me-1">Terms of use.</a>
